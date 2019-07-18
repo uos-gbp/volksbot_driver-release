@@ -1,0 +1,12 @@
+Source: ros-melodic-volksbot-driver
+Section: misc
+Priority: extra
+Maintainer: Sebastian Pütz <spuetz@uos.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-epos2-motor-controller, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://wiki.ros.org/volksbot_driver
+Standards-Version: 3.9.2
+
+Package: ros-melodic-volksbot-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-epos2-motor-controller, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: Driver for the Volksbot robot.
